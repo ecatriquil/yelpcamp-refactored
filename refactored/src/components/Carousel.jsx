@@ -1,6 +1,6 @@
 import React from 'react';
 import CarouselItem from './CarouselItem';
-const Carousel = () =>{
+const Carousel = () => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -29,6 +29,6 @@ const Carousel = () =>{
             </a>
         </div>
     );
-}
+};
 
 export default Carousel;

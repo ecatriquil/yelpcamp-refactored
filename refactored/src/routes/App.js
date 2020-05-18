@@ -1,9 +1,9 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Layout from '../components/Layout';
 import NotFound from '../components/NotFound';
-const App = () =>(
+const App = () => (
     <BrowserRouter>
         <Layout>
             <Switch>
@@ -12,6 +12,6 @@ const App = () =>(
             </Switch>
         </Layout>
     </BrowserRouter>
-)
+);
 
 export default App;
