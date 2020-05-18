@@ -15,8 +15,8 @@ const Cardgrid = () => {
             <div className="col mb-4">
                 <Card />
             </div>
-    </div>
+        </div>
     );
-}
+};
 
 export default Cardgrid;
