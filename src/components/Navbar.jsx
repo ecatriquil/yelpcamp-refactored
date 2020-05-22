@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
-            <Link className="navbar-brand" to="#">YelpCamp</Link>
+            <a className="navbar-brand" href="#">YelpCamp</a>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <Link className="nav-link" to="#">SignIn <span className="sr-only">(current)</span></Link>
+                        <a className="nav-link" href="#">SignIn <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="#">Add new Campground</Link>
+                        <a className="nav-link" href="#">Add new Campground</a>
                     </li>
                 </ul>
             </div>
