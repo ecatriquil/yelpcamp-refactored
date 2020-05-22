@@ -1,6 +1,6 @@
 import React from 'react';
-import CarouselItem from './CarouselItem';
-const Carousel = () => {
+// eslint-disable-next-line react/prop-types
+const Carousel = ({ children }) => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -9,15 +9,7 @@ const Carousel = () => {
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <CarouselItem />
-                </div>
-                <div className="carousel-item">
-                    <CarouselItem />
-                </div>
-                <div className="carousel-item">
-                    <CarouselItem />
-                </div>
+                {children}
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>

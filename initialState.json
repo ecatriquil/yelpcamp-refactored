@@ -1,0 +1,98 @@
+{
+  "initialState": {
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Clouds Rest",
+        "category": "cabin",
+        "services": {
+          "wifi": true,
+          "kitchen": true,
+          "basics": true,
+          "tv": true,
+          "laundry": false,
+          "airConditioner": true
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consequuntur fugiat debitis eos iure laborum quidem reprehenderit, facere assumenda culpa tempora in soluta quia et! Quisquam, placeat quos ducimus iusto similique accusamus provident reprehenderit. Explicabo velit quo accusantium fugiat ea.",
+        "price": 12.3,
+        "image": [
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+        ],
+        "rate": 4.6,
+        "location": "San Nicolas, Buenos Aires, Argentina"
+      },
+      {
+        "id": 2,
+        "title": "Clouds Rest",
+        "category": "cabin",
+        "services": {
+          "wifi": true,
+          "kitchen": true,
+          "basics": true,
+          "tv": true,
+          "laundry": false,
+          "airConditioner": true
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consequuntur fugiat debitis eos iure laborum quidem reprehenderit, facere assumenda culpa tempora in soluta quia et! Quisquam, placeat quos ducimus iusto similique accusamus provident reprehenderit. Explicabo velit quo accusantium fugiat ea.",
+        "price": 12.3,
+        "image": [
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+        ],
+        "rate": 4.6,
+        "location": "San Nicolas, Buenos Aires, Argentina"
+      },
+      {
+        "id": 3,
+        "title": "Clouds Rest",
+        "category": "cabin",
+        "services": {
+          "wifi": true,
+          "kitchen": true,
+          "basics": true,
+          "tv": true,
+          "laundry": false,
+          "airConditioner": true
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consequuntur fugiat debitis eos iure laborum quidem reprehenderit, facere assumenda culpa tempora in soluta quia et! Quisquam, placeat quos ducimus iusto similique accusamus provident reprehenderit. Explicabo velit quo accusantium fugiat ea.",
+        "price": 12.3,
+        "image": [
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+        ],
+        "rate": 4.6,
+        "location": "San Nicolas, Buenos Aires, Argentina"
+      },
+      {
+        "id": 4,
+        "title": "Clouds Rest",
+        "category": "cabin",
+        "services": {
+          "wifi": true,
+          "kitchen": true,
+          "basics": true,
+          "tv": true,
+          "laundry": false,
+          "airConditioner": true
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consequuntur fugiat debitis eos iure laborum quidem reprehenderit, facere assumenda culpa tempora in soluta quia et! Quisquam, placeat quos ducimus iusto similique accusamus provident reprehenderit. Explicabo velit quo accusantium fugiat ea.",
+        "price": 12.3,
+        "image": [
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+          "https://images.unsplash.com/photo-1540329957110-b87b06f5718e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+        ],
+        "rate": 4.6,
+        "location": "San Nicolas, Buenos Aires, Argentina"
+      }
+    ]
+  }
+}
