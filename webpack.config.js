@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
@@ -29,8 +29,36 @@ module.exports = {
                 ]
             },
             {
+                // test: /\.(s*)css$/,
+                // use: [
+                //     { loader: MiniCssExtractPlugin.loader },
+                //     'css-loader',
+                //     'sass-loader'
+                // ]
+                // test: /\.css$/,
+                // use: [
+                //     'style-loader',
+                //     { loader: 'css-loader', options: { importLoaders: 1 } },
+                //     'postcss-loader'
+                // ]
+                // test: /\.css$/,
+                // use: [
+                //     {
+                //         loader: 'postcss-loader',
+                //         options: {
+                //             ident: 'postcss',
+                //             plugins: [
+                //                 require('tailwindcss'),
+                //                 require('autoprefixer'),
+                //             ]
+                //         }
+                //     }
+                // ]
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader', 'postcss-loader',
+                ]
             }
         ]
     },
@@ -39,5 +67,8 @@ module.exports = {
             template: './public/index.html',
             filename: './index.html'
         }),
+        new MiniCssExtractPlugin({
+            filename: 'assets/[name].css'
+        })
     ]
 };
